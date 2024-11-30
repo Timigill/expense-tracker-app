@@ -1,0 +1,78 @@
+.form {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    /* width: 30%; */
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 1px solid #ddd;
+    /* margin-top: %; */
+    box-shadow:  0 0px 10px #ababe0;
+  }
+  
+  .transaction-form h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .form label {
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 5%;
+    border-bottom: 2px solid #6c757d;
+  }
+  .error-message {
+    color: #dc3545; /* Red color for error messages */
+    margin-top: 5px; /* Adjust margin for spacing */
+    font-size: 1rem;
+    text-align: left; /* Align text to the left */
+}
+  
+  .form input[type="text"],
+  .form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.9rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border-color 0.2s;
+  }
+  
+  .form input[type="text"]:focus,
+  .form input[type="number"]:focus {
+    border-color: #80bdff;
+    outline: none;
+  }
+  
+  .form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff; /* Blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .form button:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+
+  
+  

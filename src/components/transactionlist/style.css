@@ -1,0 +1,70 @@
+.list {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .list h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #6c757d;
+    padding-bottom: 5px;}
+  
+  .list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list ul li span {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .list ul li {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: black;
+    text-align: center;
+    margin-block: 3%;
+    margin-inline: 3%;
+
+}
+
+.list ul li.income {
+  /* font-size: 1.5rem; */
+   background-color: #7cd390; /* Green background for income */
+}
+
+.list ul li.expense {
+    background-color: #e9848e; /* Red background for expense */
+}
+
+
+.list ul li:nth-child('+') {
+    background-color: #e9ecef;
+}
+
+.delete-button {
+  background: transparent;
+  border: none;
+  color: #dc3545; /* Red color for delete */
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  text-decoration: underline;
+}

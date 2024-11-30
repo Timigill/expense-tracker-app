@@ -1,0 +1,74 @@
+box{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #f8f9fa; /* Light grey background */
+padding: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+.current{
+  font-size: 1.3rem;
+    /* font-weight: bold; */
+    text-align: center;
+    margin-top: -3% ;
+}
+.inc-exp{
+  display: flex;
+      justify-content: center;
+      gap: 20px;
+      text-align: center;
+      align-items: center;
+      font-size: 2.2rem;
+      margin-top: -3%;
+    margin-bottom: 0;}
+.income-expense div {
+  font-size: 110%;
+  font-weight: bold;
+  color: #0a0a0a;
+  text-align: center;
+  box-shadow: 0 0px 10px #ababe0;
+  border-radius: 13px;
+  margin-top: -1%;
+  }
+  
+  .income-expense .expense {
+    color: #dc3545; 
+    text-align: center;
+  }
+  .income-expense .income {
+    color: #359409; 
+    text-align: center;
+
+  }
+  .income-expense .right{
+    border-right: 2px solid rgb(175, 170, 170);
+  
+  }
+.income-expense p{
+  padding-inline: 70px;
+  padding-block: 5px;
+}
+  .head{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 3%;
+    font-weight: bold;
+}
+  
+  .incexp{
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row; */
+    flex-wrap: nowrap;
+  }
+  .income{
+    display: flex;
+    flex-direction: column;
+  }
+  .expense{
+    display: flex;
+    flex-direction: column;
+  }
