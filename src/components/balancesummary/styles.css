@@ -8,6 +8,7 @@ border-radius: 10px;
 margin-bottom: 20px;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 text-align: center;
+width: fit-content;
 }
 .current{
   font-size: 1.3rem;
@@ -53,7 +54,7 @@ text-align: center;
 }
   .head{
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-top: 3%;
     font-weight: bold;
 }
