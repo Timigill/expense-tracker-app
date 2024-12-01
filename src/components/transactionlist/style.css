@@ -61,11 +61,11 @@
 
 .list ul li.income {
   /* font-size: 1.5rem; */
-   background-color: #359409;
+   background-color: #8cbd75;
 }
 
 .list ul li.expense {
-    background-color:  #dc3545; 
+    background-color:  #f17884; 
 }
 
 .list ul li.income .delete-button i:hover {
