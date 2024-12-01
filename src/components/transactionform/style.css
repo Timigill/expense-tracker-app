@@ -1,12 +1,12 @@
 .form {
-    margin-top: 4%;
-    padding: 2%;
+    margin-top: 20px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: #fff;
     border-radius: 10px;
-    width: 95%;
+    /* width: 30%; */
     position: relative;
     left: 0;
     right: 0;
@@ -20,7 +20,7 @@
     font-size: 1.2rem;
     text-align: center;
     color: #343a40;
-    margin-bottom: 5%;
+    margin-bottom: 20px;
   }
   
   .form label {
@@ -41,12 +41,12 @@
   
   .form input[type="text"],
   .form input[type="number"] {
-    width: 95%;
-    padding: 2.5%;
+    width: 100%;
+    padding: 10px;
     font-size: 0.9rem;
     border: 1px solid #ced4da;
     border-radius: 5px;
-    margin-bottom: 2%;
+    margin-bottom: 15px;
     transition: border-color 0.2s;
   }
   

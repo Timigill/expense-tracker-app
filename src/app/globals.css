@@ -17,11 +17,10 @@ body {
 .body {
   display: flex;
   justify-content: center;
-  align-items: center; /* Align items at the top */
-  padding: 3%; /* Add padding */
+  align-items: flex-start; /* Align items at the top */
+  padding: 20px; /* Add padding */
   background-color: #f0f0f0; /* Light background color */
   min-height: 100vh; /* Full height */
-  min-width: 100vw;
 }
 
 .mainbox {
@@ -30,10 +29,9 @@ body {
   width: 100%; /* Full width */
   max-width: 800px; /* Max width for larger screens */
   margin: auto; /* Center the box */
-  padding: 3%; /* Padding around the content */
+  padding: 20px; /* Padding around the content */
   background-color: #ffffff; /* White background for the main box */
   border-radius: 10px; /* Rounded corners */
-  align-items: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
