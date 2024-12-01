@@ -1,5 +1,6 @@
 import React from 'react';
 import "@/components/transactionlist/style.css";
+import trashIcon from "@/components/transactionlist/trash-solid.svg";
 
 export default function TransactionList({ transactions, deleteTransaction, setTransactions }) {
     const handleDelete = (index) => {
@@ -25,7 +26,7 @@ export default function TransactionList({ transactions, deleteTransaction, setTr
                             <button className='delete-button'
                                 onClick={() => handleDelete(index)}
                             >
-                                X
+                                 <i className="fa-solid fa-trash"></i>
                             </button>
                         </li>
                     ))}
