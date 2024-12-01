@@ -69,11 +69,11 @@
 }
 
 .list ul li.income .delete-button i:hover {
- color: #db757f;
+ color: #dc3545;
 }
 
 .list ul li.expense .delete-button i:hover {
-    color:  #7cd390;
+    color:  #359409;
 }
 
 .delete-button {
