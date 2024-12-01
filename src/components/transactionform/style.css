@@ -10,7 +10,7 @@
     position: relative;
     left: 0;
     right: 0;
-    margin: auto;
+    /* margin: auto; */
     border: 1px solid #ddd;
     /* margin-top: %; */
     box-shadow:  0 0px 10px #ababe0;
