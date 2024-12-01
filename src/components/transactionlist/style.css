@@ -25,8 +25,23 @@
     font-size: 1.1rem;
     font-weight: bold;
   }
-  
   .list ul li {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between; /* Change to space-between to allow button to be on the right */
+      padding: 5px 10px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      color: black;
+      text-align: center;
+      margin-block: 3%;
+      margin-inline: 3%;
+      /* position: relative; Position relative for the button positioning */
+  }
+  
+  /* .list ul li {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -40,7 +55,7 @@
     margin-block: 3%;
     margin-inline: 3%;
 
-}
+} */
 
 .list ul li.income {
   /* font-size: 1.5rem; */
@@ -55,16 +70,46 @@
 .list ul li:nth-child('+') {
     background-color: #e9ecef;
 }
-
 .delete-button {
+  border-top-right-radius: 5px;
+  background: #ee5353;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 6px 6px;
+  border-top-right-radius: 5px;
+  transition: background-color 0.2s, color 0.2s;
+  opacity: 0;
+  /* transform: translateY(-50%); */
+  position: absolute;
+  left: 73%;
+  top: 51.1%;
+  border-bottom-right-radius: 5px;
+}
+    
+/* .delete-button {
   background: transparent;
   border: none;
-  color: #dc3545; /* Red color for delete */
+  color: #dc3545; 
   font-size: 1rem;
   cursor: pointer;
   margin-left: 10px;
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  transition: background-color 0.2s, color 0.2s; 
+} */
+.list ul li:hover .delete-button {
+  opacity: 1;
+  /* background-color: #f8d7da; 
+  color: #721c24;  */
 }
+.delete-button:focus {
+  background-color: #c82333; /* Light red background on hover */
 
-.delete-button:hover {
-  text-decoration: underline;
+}
+.delete-container {
+  display: flex;
+  align-items: center; /* Center the button vertically */
+  margin-left: 10px; /* Space between text and button */
 }
