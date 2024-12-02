@@ -17,10 +17,11 @@ body {
 .body {
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Align items at the top */
+  align-items: center; /* Align items at the top */
   padding: 20px; /* Add padding */
   background-color: #f0f0f0; /* Light background color */
   min-height: 100vh; /* Full height */
+
 }
 
 .mainbox {
@@ -38,6 +39,6 @@ body {
 @media (min-width: 600px) {
   .mainbox {
     flex-direction: column; /* Change to row layout on larger screens */
-    justify-content: space-between; /* Space out children */
+    justify-content: center; /* Space out children */
   }
 }
